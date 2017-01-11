@@ -1,12 +1,12 @@
 # ASI-Manager
-An .ASI Manager for GTA: San Andreas
+An .ASI Manager for GTA: San Andreas <br />
 
 ### Installation
-Download
-Place in your Grand Theft Auto San Andreas Directory
-Run as Administrator
-That's it!
+Download <br />
+Place in your Grand Theft Auto San Andreas Directory <br />
+Run as Administrator <br />
+That's it! <br />
 
 ### Requirements:
-- .Net 4.5+
-- Silent's .ASI Loader
+- .Net 4.5+ <br />
+- Silent's .ASI Loader <br />
