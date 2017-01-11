@@ -1,0 +1,29 @@
+﻿<Window x:Class="AsiManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsiManager"
+        mc:Ignorable="d"
+        Title="ASI-Manager by Stuyk" Height="Auto" Width="525" ResizeMode="NoResize" Icon="icons/main.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button x:Name="button" Content="Get Files" Margin="10,20,10,0" Click="button_Click" Grid.Column="1" Height="22" VerticalAlignment="Top"/>
+        <GroupBox x:Name="groupActiveFiles" Header="Active Files" Margin="10" Height="Auto" VerticalAlignment="Stretch">
+            <ListBox x:Name="activeFiles" Margin="10"/>
+        </GroupBox>
+        <GroupBox x:Name="groupInactiveFiles" Header="Inactive Files" Margin="10" Grid.Column="2" Height="Auto" VerticalAlignment="Stretch">
+            <ListBox x:Name="inactiveFiles" Margin="10"/>
+        </GroupBox>
+        <Button x:Name="buttonSaveFiles" Content="Save Files" VerticalAlignment="Top" Height="22" Margin="10,121,10,0" Click="buttonSaveFiles_Click" Grid.Column="1"/>
+        <Button x:Name="buttonActivateFile" Content="⭠ Activate" Margin="10,57,10,0" Background="#FFDDDDDD" BorderBrush="#FF707070" Click="buttonActivateFile_Click" Height="22" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="buttonDisableFile" Content="Deactivate ⭢" Margin="10,84,10,0" Height="22" Click="buttonDisableFile_Click" Background="#FFDDDDDD" BorderBrush="#FF707070" VerticalAlignment="Top" Grid.Column="1"/>
+    </Grid>
+</Window>
