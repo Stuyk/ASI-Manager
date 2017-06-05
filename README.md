@@ -1,5 +1,6 @@
 # ASI-Manager
 An .ASI Manager for GTA: San Andreas <br />
+First program I ever wrote in C#.
 
 ### Installation
 Download <br />
